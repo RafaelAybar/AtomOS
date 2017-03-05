@@ -1,30 +1,36 @@
 # Atomix Development : Atom OS
 
-A Multitasking **Monolithic** Kernel based x86 targetting Operating System written in C# from scratch aiming for high level implementation of drivers in managed environment and security. [How to Build from Source?](https://github.com/amaneureka/AtomOS/wiki/Build-Environment)
+Nucleo dotado te multitareas, de arquitectura monolitica con foco en los CPU x. Su codigo esta programado en C# desde cero. 
+Nuestro proposito es lograr una implementacion de controladores a alto nivel en un entorno managed que ofrezca mayor seguridad que otros lenguajes de programacion. 
 
-## Kernel Features
-- Paging
-- Multithreading
-- ELF Loader
-- Syscalls
+[Como compilar desde el codigo fuente?](https://github.com/amaneureka/AtomOS/wiki/Build-Environment)
+
+## Cualidades del Nucleo
+- Paginacion
+- Multiproceso en hebras
+- Carga de ejecutables en formato ELF 
+- Llamadas a sistema
 - SHM
 - Compositor
 
-## Drivers
-- PS2 Keyboard/Mouse
-- ATA/ATAPI IDE
+## Controladores
+- Teclado y mouse PS2 
+- Discos duros en los formayos, ATA,ATAPI IDE
 - Vmware SVGA
 - VBE 2.0
 - ACPI
 - Timer
-- FAT-32
+- Almacenamiento en el formato FAT-32
 
-## How to contribute?
-Yes I am looking for dedicated people to continue work on Atom with me. Feel free to ping me on mail :-)
+## Desea contribuir al proyecto Atom OS?
+Estoy en busqueda de gente dedicada para avanzar en el trabajo con el codigo fuente de Atom. Sientase libre de hacer ping a mi correo electronico :-)
 
-## Screenshot
-![Compsitor Testing](http://i.imgur.com/mrMfyTb.png)
+## Capturas de Pantalla 
+![Pruebas del compositor](http://i.imgur.com/mrMfyTb.png)
 
-## License
+## Licencia
 > © [Aman Priyadarshi](mailto:aman.eureka@gmail.com)<br>
-> Complete License can be found [here](LICENSE.md)
+> [La licencia de Atom OS se encuentra en este enlace](LICENSE.md)
+
+## Traduccion
+> La traduccion al castellano fue realizada Leo Ruilova, fue liberada a los Comunes bajo una licencia Creative Commons - Atribucion - No Comercial - Compartir igual.
